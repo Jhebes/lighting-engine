@@ -1,0 +1,27 @@
+body {
+  padding-top: 50px;
+}
+
+nav {
+    height: 70px;
+}
+
+#canvas {
+    width: 100%
+}
+#doc {
+    font-family: 'Droid Serif', serif;
+    font-size: 1.5em;
+    text-align: justify;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.divider {
+    margin-left:auto;
+    margin-right:auto;
+    border-bottom: 1px dashed black;
+    width: 90%;
+}

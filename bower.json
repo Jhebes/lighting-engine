@@ -1,0 +1,23 @@
+{
+  "name": "HW6",
+  "authors": [
+    "Josh Hebert <jahebert@wpi.edu>"
+  ],
+  "description": "A simple lighting demo using A* search",
+  "main": "server.js",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "javascript-astar": "bgrins/javascript-astar#~0.4.0",
+    "bootstrap": "~3.3.6",
+  }
+}
