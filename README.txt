@@ -1,4 +1,6 @@
 Hosted at jh-cs4241-assn6.herokuapp.com
+I've rigged up npm so that if you run "npm start", it will install
+all npm/bower deps and spin up the app.
 Copied from the site itself. Look at it there; it's prettier.
 
 What is this?

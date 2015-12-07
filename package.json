@@ -5,9 +5,14 @@
   "author": "Josh Hebert",
   "private": true,
   "scripts": {
-    "start": "node server.js"
+    "start": "npm start"
   },
   "dependencies": {
     "express": "~4.9.0"
+  },
+  "scripts": {
+    "postinstall": "bower install",
+    "prestart": "npm install",
+    "start": "node server.js"
   }
 }
