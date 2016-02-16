@@ -42,15 +42,14 @@
             <br><br>
             Finally, I've bound up click to start the process for creating walls, which ends when the mouse is released. These walls act as obstructions, preventing "light" from passing through them.
             <h2>Why A*?</h2>
-            There's probably better lighting pattern algorithms somewhere, but I picked A* for a few reasons. Primarily A* doesn't need to preprocess the graph. This is pretty huge, as creating an optimal route table for every cell to every other cell could be pretty costly, and I didn't want to have the page take a few seconds to load in. Additionally, as soon as you place a wall, _every_single_table_ would have to update. That's really just not practical. Something like A* can run on the fly for each node and be reasonably speedy. It may be possible to run something like Dijkstra's for each node, but I haven't done the calculations to determine if this is faster than running A* to every other node on the graph. However, the choice of algorithm here I think is beyond the scope of this class, as the end product will be the same either way; it will only affect how many cells I can reasonably have in my grid. Right now, I find I really can't better that ~30x30 on my machine without lag. 
+            There's probably better lighting pattern algorithms somewhere, but I picked A* for a few reasons. Primarily A* doesn't need to preprocess the graph. This is pretty huge, as creating an optimal route table for every cell to every other cell could be pretty costly, and I didn't want to have the page take a few seconds to load in. Additionally, as soon as you place a wall, _every_single_table_ would have to update. That's really just not practical. Something like A* can run on the fly for each node and be reasonably speedy. It may be possible to run something like Dijkstra's for each node, but I haven't done the calculations to determine if this is faster than running A* to every other node on the graph. However, the choice of algorithm here I think is beyond the scope of what I'm trying to accomplish here, as the end product will be the same either way; it will only affect how many cells I can reasonably have in my grid. Right now, I find I really can't better do than ~30x30 on my machine without lag. 
             <br>
         </section> 
     </div>
     <br><br> 
     <div class="divider"></div>
     <div class="text-center">
-        <p>CS 4241: Webware (Fall 2015)</p>
-        <p>Worcester Polytechnic Institute</p>
+        <p>Josh Hebert</p>
     </div>
     <!-- Bootstrap -->
     <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
